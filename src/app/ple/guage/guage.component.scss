@@ -1,0 +1,36 @@
+.guage {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgb(142, 243, 133);
+    // box-shadow: 0 0 30px 0 black;
+    // box-shadow: inset 0 0 0 10px red;
+}
+
+.pivot {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.needle {
+    position: absolute;
+    top: 0;
+    bottom: -40px;
+    left: 0;
+    right: 10px;
+    margin: auto;
+    font-size: 140px;
+    // height: 20px;
+    // width: 20px;
+    color: black;
+    transform: rotateZ(225deg);
+}
